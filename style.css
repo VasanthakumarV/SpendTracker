@@ -29,6 +29,9 @@ h2[id] { scroll-margin-top: 1rem; }
 .card p { margin: 0; color: var(--dim); font-size: .95rem; }
 .btn { display: inline-flex; align-items: center; gap: .5rem; min-height: 44px; padding: 0 1.1rem; border-radius: 10px; background: var(--accent); color: var(--on-accent); font-weight: 600; text-decoration: none; }
 .btn.outline { background: transparent; color: var(--fg); border: 1px solid var(--line); }
+.btn.loud { min-height: 52px; padding: 0 1.5rem; font-size: 1.1rem; font-weight: 700; color: #fff; background: linear-gradient(100deg, #c2185b, #6a35f0 55%, #0b6bcb); box-shadow: 0 6px 20px rgb(106 53 240 / .45); transition: transform .15s, box-shadow .15s; }
+.btn.loud:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgb(106 53 240 / .6); }
+@media (prefers-reduced-motion: reduce) { .btn.loud { transition: none; } .btn.loud:hover { transform: none; } }
 .badge { display: inline-block; padding: 0 .45em; border: 1px solid currentColor; border-radius: 6px; font-size: .75rem; font-weight: 600; line-height: 1.5; vertical-align: middle; }
 .actions { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1.25rem 0; }
 .qr { display: block; width: 220px; max-width: 100%; aspect-ratio: 1; border-radius: 12px; background: #fff; border: 1px solid var(--line); margin: .75rem 0; }
