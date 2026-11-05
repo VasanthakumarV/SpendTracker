@@ -21,12 +21,15 @@ h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; }
 .lead { font-size: 1.1rem; color: var(--dim); }
 .muted { color: var(--dim); font-size: .9rem; }
 .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 1.25rem; margin: 1rem 0; }
+h2[id] { scroll-margin-top: 1rem; }
+.card .actions { margin-bottom: 0; }
 .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
 .grid .card { margin: 0; }
 .card h3 { margin: 0 0 .25rem; font-size: 1rem; }
 .card p { margin: 0; color: var(--dim); font-size: .95rem; }
 .btn { display: inline-flex; align-items: center; gap: .5rem; min-height: 44px; padding: 0 1.1rem; border-radius: 10px; background: var(--accent); color: var(--on-accent); font-weight: 600; text-decoration: none; }
 .btn.outline { background: transparent; color: var(--fg); border: 1px solid var(--line); }
+.badge { display: inline-block; padding: 0 .45em; border: 1px solid currentColor; border-radius: 6px; font-size: .75rem; font-weight: 600; line-height: 1.5; vertical-align: middle; }
 .actions { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1.25rem 0; }
 .qr { display: block; width: 220px; max-width: 100%; aspect-ratio: 1; border-radius: 12px; background: #fff; border: 1px solid var(--line); margin: .75rem 0; }
 .todo { background: #fff3c4; color: #5a4300; padding: 0 .3em; border-radius: 4px; }

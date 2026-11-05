@@ -15,4 +15,7 @@ These are in HTML comments until they exist. Fill in the placeholder and remove 
 | Placeholder | Page | What |
 |---|---|---|
 | `PLAY_STORE_URL` | index.html, support.html | `https://play.google.com/store/apps/details?id=io.github.vasanthakumarv.spendtracker` once listed |
-| `DESKTOP_DOWNLOAD_URL` | index.html | e.g. a GitHub Releases page |
+
+## Desktop downloads
+
+The Beta section of `index.html` links straight to the `v1.0.0` release files. Update those links after each new release, since the file names include the version.
