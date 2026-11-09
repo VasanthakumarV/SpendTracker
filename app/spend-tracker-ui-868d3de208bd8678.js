@@ -1,11 +1,11 @@
-import { download } from './snippets/spend-tracker-ui-3b9bb7b4d32e9822/inline0.js';
-import { gis_token } from './snippets/spend-tracker-ui-3b9bb7b4d32e9822/inline2.js';
-import { plural_category } from './snippets/spend-tracker-ui-3b9bb7b4d32e9822/inline3.js';
-import { apply_document_locale, currency_name, currency_terms, document_lang, first_weekday, fmt_amount_input, fmt_date, fmt_date_field, fmt_datetime, fmt_day, fmt_day_range, fmt_day_short, fmt_day_year, fmt_int, fmt_long_date, fmt_money, fmt_money_short, fmt_month, fmt_month_short, fmt_number_compact, fmt_percent, fmt_relative, fmt_time_now, fmt_weekday, fmt_year, is_rtl, language_name, region_of, system_locale, system_tz, today_iso } from './snippets/spend-tracker-ui-3b9bb7b4d32e9822/inline4.js';
-import { set_enabled } from './snippets/spend-tracker-ui-3b9bb7b4d32e9822/inline5.js';
-import { decode_as, month_first, xlsx_rows } from './snippets/spend-tracker-ui-3b9bb7b4d32e9822/inline6.js';
-import * as import1 from "./snippets/spend-tracker-ui-3b9bb7b4d32e9822/inline1.js"
-import * as import2 from "./snippets/spend-tracker-ui-3b9bb7b4d32e9822/inline5.js"
+import { download } from './snippets/spend-tracker-ui-14cb711930a540f2/inline0.js';
+import { gis_token } from './snippets/spend-tracker-ui-14cb711930a540f2/inline2.js';
+import { plural_category } from './snippets/spend-tracker-ui-14cb711930a540f2/inline3.js';
+import { apply_document_locale, currency_name, currency_terms, document_lang, first_weekday, fmt_amount_input, fmt_date, fmt_date_field, fmt_datetime, fmt_day, fmt_day_range, fmt_day_short, fmt_day_year, fmt_int, fmt_long_date, fmt_money, fmt_money_short, fmt_month, fmt_month_short, fmt_number_compact, fmt_percent, fmt_relative, fmt_time_now, fmt_weekday, fmt_year, is_rtl, language_name, region_of, system_locale, system_tz, today_iso } from './snippets/spend-tracker-ui-14cb711930a540f2/inline4.js';
+import { set_enabled } from './snippets/spend-tracker-ui-14cb711930a540f2/inline5.js';
+import { decode_as, month_first, xlsx_rows } from './snippets/spend-tracker-ui-14cb711930a540f2/inline6.js';
+import * as import1 from "./snippets/spend-tracker-ui-14cb711930a540f2/inline1.js"
+import * as import2 from "./snippets/spend-tracker-ui-14cb711930a540f2/inline5.js"
 
 
 export class IntoUnderlyingByteSource {
@@ -228,7 +228,7 @@ function __wbg_get_imports() {
             const ret = arg0.appendChild(arg1);
             return ret;
         }, arguments); },
-        __wbg_apply_document_locale_a61452e818c4529d: function(arg0, arg1, arg2) {
+        __wbg_apply_document_locale_943a68144a8aa74b: function(arg0, arg1, arg2) {
             apply_document_locale(getStringFromWasm0(arg0, arg1), arg2 !== 0);
         },
         __wbg_arrayBuffer_5abbcb61bd48f427: function(arg0) {
@@ -356,14 +356,14 @@ function __wbg_get_imports() {
             const ret = arg0.ctrlKey;
             return ret;
         },
-        __wbg_currency_name_4e93b452122acd60: function(arg0, arg1, arg2, arg3, arg4) {
+        __wbg_currency_name_6dfcafa4ea215473: function(arg0, arg1, arg2, arg3, arg4) {
             const ret = currency_name(getStringFromWasm0(arg1, arg2), getStringFromWasm0(arg3, arg4));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_currency_terms_547111509bba36f8: function(arg0, arg1, arg2) {
+        __wbg_currency_terms_3ab3ed1fe5214278: function(arg0, arg1, arg2) {
             const ret = currency_terms(getStringFromWasm0(arg1, arg2));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
@@ -378,7 +378,7 @@ function __wbg_get_imports() {
             const ret = arg0.data;
             return ret;
         },
-        __wbg_decode_as_3c3eaac03fba22b7: function(arg0, arg1, arg2, arg3) {
+        __wbg_decode_as_cf430afc08825e13: function(arg0, arg1, arg2, arg3) {
             const ret = decode_as(arg1, getStringFromWasm0(arg2, arg3));
             var ptr1 = isLikeNone(ret) ? 0 : passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             var len1 = WASM_VECTOR_LEN;
@@ -397,7 +397,7 @@ function __wbg_get_imports() {
             const ret = arg0.document;
             return isLikeNone(ret) ? 0 : addToExternrefTable0(ret);
         },
-        __wbg_document_lang_65f3e9aea8874848: function(arg0) {
+        __wbg_document_lang_2c3ace24f7ed2dc9: function(arg0) {
             const ret = document_lang();
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
@@ -408,7 +408,7 @@ function __wbg_get_imports() {
             const ret = arg0.done;
             return ret;
         },
-        __wbg_download_1166804988eb164e: function(arg0, arg1, arg2, arg3, arg4, arg5) {
+        __wbg_download_042a765812afa93f: function(arg0, arg1, arg2, arg3, arg4, arg5) {
             download(getStringFromWasm0(arg0, arg1), getStringFromWasm0(arg2, arg3), getStringFromWasm0(arg4, arg5));
         },
         __wbg_enqueue_c11626eae1c54509: function() { return handleError(function (arg0, arg1) {
@@ -443,144 +443,144 @@ function __wbg_get_imports() {
             const ret = arg0.firstElementChild;
             return isLikeNone(ret) ? 0 : addToExternrefTable0(ret);
         },
-        __wbg_first_weekday_a05c6cc48487423b: function(arg0, arg1) {
+        __wbg_first_weekday_3a697cdf5d42349c: function(arg0, arg1) {
             const ret = first_weekday(getStringFromWasm0(arg0, arg1));
             return ret;
         },
-        __wbg_fmt_amount_input_1a4638230ef73bd1: function(arg0, arg1, arg2, arg3, arg4) {
+        __wbg_fmt_amount_input_8f7457479fd271f6: function(arg0, arg1, arg2, arg3, arg4) {
             const ret = fmt_amount_input(arg1, arg2 >>> 0, getStringFromWasm0(arg3, arg4));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_date_5ba85bb99c60f358: function(arg0, arg1, arg2, arg3, arg4) {
+        __wbg_fmt_date_162755f8aac26ba0: function(arg0, arg1, arg2, arg3, arg4) {
             const ret = fmt_date(getStringFromWasm0(arg1, arg2), getStringFromWasm0(arg3, arg4));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_date_field_2b0da3dc0c14cf42: function(arg0, arg1, arg2, arg3, arg4) {
+        __wbg_fmt_date_field_82aa62d35627785b: function(arg0, arg1, arg2, arg3, arg4) {
             const ret = fmt_date_field(getStringFromWasm0(arg1, arg2), getStringFromWasm0(arg3, arg4));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_datetime_e1879801bf64a01e: function(arg0, arg1, arg2, arg3) {
+        __wbg_fmt_datetime_23ec92f60d240d7d: function(arg0, arg1, arg2, arg3) {
             const ret = fmt_datetime(arg1, getStringFromWasm0(arg2, arg3));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_day_939e60f662334c99: function(arg0, arg1, arg2, arg3, arg4) {
+        __wbg_fmt_day_cd0601c96a2911ed: function(arg0, arg1, arg2, arg3, arg4) {
             const ret = fmt_day(getStringFromWasm0(arg1, arg2), getStringFromWasm0(arg3, arg4));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_day_range_850de6a633cb98f5: function(arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7) {
+        __wbg_fmt_day_range_b1d613847be7b5d7: function(arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7) {
             const ret = fmt_day_range(getStringFromWasm0(arg1, arg2), getStringFromWasm0(arg3, arg4), getStringFromWasm0(arg5, arg6), arg7 !== 0);
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_day_short_ba83b60a278bbdab: function(arg0, arg1, arg2, arg3, arg4) {
+        __wbg_fmt_day_short_d60751768af016a2: function(arg0, arg1, arg2, arg3, arg4) {
             const ret = fmt_day_short(getStringFromWasm0(arg1, arg2), getStringFromWasm0(arg3, arg4));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_day_year_bd3a6adf8d12cc2b: function(arg0, arg1, arg2, arg3, arg4) {
+        __wbg_fmt_day_year_1ae911c2ac3dffc6: function(arg0, arg1, arg2, arg3, arg4) {
             const ret = fmt_day_year(getStringFromWasm0(arg1, arg2), getStringFromWasm0(arg3, arg4));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_int_e7c9487172f00843: function(arg0, arg1, arg2, arg3) {
+        __wbg_fmt_int_d58e75cb51ce5b95: function(arg0, arg1, arg2, arg3) {
             const ret = fmt_int(arg1, getStringFromWasm0(arg2, arg3));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_long_date_e39da5f4c7cf9599: function(arg0, arg1, arg2, arg3, arg4) {
+        __wbg_fmt_long_date_42b2413dabd819ec: function(arg0, arg1, arg2, arg3, arg4) {
             const ret = fmt_long_date(getStringFromWasm0(arg1, arg2), getStringFromWasm0(arg3, arg4));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_money_841ae8edb2e27f82: function(arg0, arg1, arg2, arg3, arg4, arg5, arg6) {
+        __wbg_fmt_money_2e52b9d960ad6d4c: function(arg0, arg1, arg2, arg3, arg4, arg5, arg6) {
             const ret = fmt_money(arg1, getStringFromWasm0(arg2, arg3), getStringFromWasm0(arg4, arg5), arg6 !== 0);
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_money_short_96fa0a5d3b605e46: function(arg0, arg1, arg2, arg3, arg4, arg5) {
+        __wbg_fmt_money_short_25f6e49f3a263dad: function(arg0, arg1, arg2, arg3, arg4, arg5) {
             const ret = fmt_money_short(arg1, getStringFromWasm0(arg2, arg3), getStringFromWasm0(arg4, arg5));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_month_5cd997d8fa07a3f9: function(arg0, arg1, arg2, arg3, arg4) {
+        __wbg_fmt_month_0cdd028e82358b33: function(arg0, arg1, arg2, arg3, arg4) {
             const ret = fmt_month(arg1, arg2 >>> 0, getStringFromWasm0(arg3, arg4));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_month_short_6a929cba1faa7047: function(arg0, arg1, arg2, arg3, arg4) {
+        __wbg_fmt_month_short_dd2186c27b800fe4: function(arg0, arg1, arg2, arg3, arg4) {
             const ret = fmt_month_short(arg1, arg2 >>> 0, getStringFromWasm0(arg3, arg4));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_number_compact_716b7ac2a740ecd7: function(arg0, arg1, arg2, arg3) {
+        __wbg_fmt_number_compact_e084c22f2a4c425c: function(arg0, arg1, arg2, arg3) {
             const ret = fmt_number_compact(arg1, getStringFromWasm0(arg2, arg3));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_percent_71c16a14d3aa5520: function(arg0, arg1, arg2, arg3) {
+        __wbg_fmt_percent_520fb81fb0d08ed8: function(arg0, arg1, arg2, arg3) {
             const ret = fmt_percent(arg1, getStringFromWasm0(arg2, arg3));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_relative_00f4bc21a4f8e476: function(arg0, arg1, arg2, arg3) {
+        __wbg_fmt_relative_a0ba4a402a4185b5: function(arg0, arg1, arg2, arg3) {
             const ret = fmt_relative(arg1, getStringFromWasm0(arg2, arg3));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_time_now_32548b1927136d9f: function(arg0, arg1, arg2) {
+        __wbg_fmt_time_now_02ec4c4d4a30886e: function(arg0, arg1, arg2) {
             const ret = fmt_time_now(getStringFromWasm0(arg1, arg2));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_weekday_03b027c4e37e8cea: function(arg0, arg1, arg2, arg3, arg4) {
+        __wbg_fmt_weekday_6662b9ad26f47855: function(arg0, arg1, arg2, arg3, arg4) {
             const ret = fmt_weekday(getStringFromWasm0(arg1, arg2), getStringFromWasm0(arg3, arg4));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_fmt_year_f502bcc9f94a2f31: function(arg0, arg1, arg2, arg3) {
+        __wbg_fmt_year_5bb0241492759c9a: function(arg0, arg1, arg2, arg3) {
             const ret = fmt_year(arg1, getStringFromWasm0(arg2, arg3));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
@@ -655,7 +655,7 @@ function __wbg_get_imports() {
             const ret = arg0[arg1];
             return ret;
         },
-        __wbg_gis_token_d00339e330525193: function() { return handleError(function (arg0, arg1, arg2, arg3, arg4, arg5, arg6) {
+        __wbg_gis_token_95fcb3441809ade3: function() { return handleError(function (arg0, arg1, arg2, arg3, arg4, arg5, arg6) {
             let v0;
             if (arg4 !== 0) {
                 v0 = getStringFromWasm0(arg4, arg5);
@@ -781,7 +781,7 @@ function __wbg_get_imports() {
             const ret = result;
             return ret;
         },
-        __wbg_invoke_6af44dd4fc8d48a4: function() { return handleError(function (arg0, arg1, arg2) {
+        __wbg_invoke_542dc5c1fbb20a73: function() { return handleError(function (arg0, arg1, arg2) {
             const ret = window.__TAURI__.core.invoke(getStringFromWasm0(arg0, arg1), arg2);
             return ret;
         }, arguments); },
@@ -805,7 +805,7 @@ function __wbg_get_imports() {
             const ret = Object.is(arg0, arg1);
             return ret;
         },
-        __wbg_is_rtl_edff2e5c24f02d11: function(arg0, arg1) {
+        __wbg_is_rtl_ed9b7e902e5580a6: function(arg0, arg1) {
             const ret = is_rtl(getStringFromWasm0(arg0, arg1));
             return ret;
         },
@@ -824,7 +824,7 @@ function __wbg_get_imports() {
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_language_name_5a43a9a01c33d8a1: function(arg0, arg1, arg2) {
+        __wbg_language_name_5dd645ced48c4c7a: function(arg0, arg1, arg2) {
             const ret = language_name(getStringFromWasm0(arg1, arg2));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
@@ -851,7 +851,7 @@ function __wbg_get_imports() {
             const ret = arg0.length;
             return ret;
         },
-        __wbg_listen_31b6bd9ef82963d5: function(arg0, arg1, arg2) {
+        __wbg_listen_652f116de7b7008a: function(arg0, arg1, arg2) {
             const ret = window.__TAURI__.event.listen(getStringFromWasm0(arg0, arg1), arg2);
             return ret;
         },
@@ -879,7 +879,7 @@ function __wbg_get_imports() {
             const ret = arg0.metaKey;
             return ret;
         },
-        __wbg_month_first_2f9d63c14e0abe3b: function(arg0, arg1) {
+        __wbg_month_first_ab258d2ff67f3dee: function(arg0, arg1) {
             const ret = month_first(getStringFromWasm0(arg0, arg1));
             return ret;
         },
@@ -1002,7 +1002,7 @@ function __wbg_get_imports() {
             const ret = arg0.parentNode;
             return isLikeNone(ret) ? 0 : addToExternrefTable0(ret);
         },
-        __wbg_plural_category_5c7af0621a5de77c: function(arg0, arg1, arg2, arg3) {
+        __wbg_plural_category_d1d3331647cfc62c: function(arg0, arg1, arg2, arg3) {
             const ret = plural_category(getStringFromWasm0(arg1, arg2), arg3);
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
@@ -1040,7 +1040,7 @@ function __wbg_get_imports() {
         __wbg_queueMicrotask_4a1a4d8dd332373b: function(arg0) {
             queueMicrotask(arg0);
         },
-        __wbg_region_of_d867b6e0a3cd148b: function(arg0, arg1, arg2) {
+        __wbg_region_of_3a9c445fb52b0c1d: function(arg0, arg1, arg2) {
             const ret = region_of(getStringFromWasm0(arg1, arg2));
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
@@ -1153,7 +1153,7 @@ function __wbg_get_imports() {
         __wbg_set_e4b9a833d288759a: function(arg0, arg1, arg2) {
             arg0[arg1] = arg2;
         },
-        __wbg_set_enabled_d85de6de05baa73e: function(arg0) {
+        __wbg_set_enabled_5653d4bf5aced78e: function(arg0) {
             set_enabled(arg0 !== 0);
         },
         __wbg_set_feb3714f475485ba: function(arg0, arg1, arg2) {
@@ -1221,14 +1221,14 @@ function __wbg_get_imports() {
             const ret = arg0.style;
             return ret;
         },
-        __wbg_system_locale_b158ebdb5f0ed668: function(arg0) {
+        __wbg_system_locale_e63ffc54e8061cac: function(arg0) {
             const ret = system_locale();
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 1, len1, true);
             getDataViewMemory0().setInt32((arg0 >>> 0) + 4 * 0, ptr1, true);
         },
-        __wbg_system_tz_2fd9bbdd3beefa2a: function(arg0) {
+        __wbg_system_tz_42ab6363f3a61f5d: function(arg0) {
             const ret = system_tz();
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
@@ -1257,7 +1257,7 @@ function __wbg_get_imports() {
             const ret = arg0.then(arg1);
             return ret;
         },
-        __wbg_today_iso_b0a586d6c4311c3a: function(arg0) {
+        __wbg_today_iso_8068677f33fb4bfe: function(arg0) {
             const ret = today_iso();
             const ptr1 = passStringToWasm0(ret, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
             const len1 = WASM_VECTOR_LEN;
@@ -1306,12 +1306,12 @@ function __wbg_get_imports() {
             const ret = arg0.writeText(getStringFromWasm0(arg1, arg2));
             return ret;
         },
-        __wbg_xlsx_rows_6e415fe7bc54bbee: function() { return handleError(function (arg0) {
+        __wbg_xlsx_rows_82f9215c3bc418ba: function() { return handleError(function (arg0) {
             const ret = xlsx_rows(arg0);
             return ret;
         }, arguments); },
         __wbindgen_generic_0000000000000001: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [Externref], shim_idx: 379, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [Externref], shim_idx: 380, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, wasm_bindgen_834b402ccdd02d5___convert__closures_____invoke___wasm_bindgen_834b402ccdd02d5___JsValue______true__1_);
             return ret;
         },
@@ -1321,7 +1321,7 @@ function __wbg_get_imports() {
             return ret;
         },
         __wbindgen_generic_0000000000000003: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [Externref], shim_idx: 604, ret: Result(Unit), inner_ret: Some(Result(Unit)) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [Externref], shim_idx: 605, ret: Result(Unit), inner_ret: Some(Result(Unit)) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, wasm_bindgen_834b402ccdd02d5___convert__closures_____invoke___wasm_bindgen_834b402ccdd02d5___JsValue__core_37ee0ce0c4cd57d5___result__Result_____wasm_bindgen_834b402ccdd02d5___JsError___true_);
             return ret;
         },
@@ -1331,7 +1331,7 @@ function __wbg_get_imports() {
             return ret;
         },
         __wbindgen_generic_0000000000000005: function(arg0, arg1) {
-            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("MessageEvent")], shim_idx: 586, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+            // Cast intrinsic for `Closure(Closure { owned: true, function: Function { arguments: [NamedExternref("MessageEvent")], shim_idx: 587, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
             const ret = makeMutClosure(arg0, arg1, wasm_bindgen_834b402ccdd02d5___convert__closures_____invoke___web_sys_d93a8025eb0ac07d___features__gen_MessageEvent__MessageEvent______true_);
             return ret;
         },
@@ -1387,8 +1387,8 @@ function __wbg_get_imports() {
     return {
         __proto__: null,
         "./spend-tracker-ui_bg.js": import0,
-        "./snippets/spend-tracker-ui-3b9bb7b4d32e9822/inline1.js": import1,
-        "./snippets/spend-tracker-ui-3b9bb7b4d32e9822/inline5.js": import2,
+        "./snippets/spend-tracker-ui-14cb711930a540f2/inline1.js": import1,
+        "./snippets/spend-tracker-ui-14cb711930a540f2/inline5.js": import2,
     };
 }
 

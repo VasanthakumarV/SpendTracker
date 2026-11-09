@@ -3,8 +3,8 @@
 // they wait here and go to the engine's handler once it's set.
 const early = [];
 self.onmessage = (e) => early.push(e);
-importScripts("./spend-web.js?v=2504b099a18a");
-wasm_bindgen("./spend-web_bg.wasm?v=2504b099a18a").then(
+importScripts("./spend-web.js?v=07651f09368b");
+wasm_bindgen("./spend-web_bg.wasm?v=07651f09368b").then(
   () => {
     for (const e of early.splice(0)) self.onmessage(e);
   },

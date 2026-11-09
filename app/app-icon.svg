@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Spend Tracker: a spending breakdown in all five accent colours around a dollar sign, on a neutral tile, so it suits any accent. -->
+  <rect x="64" y="64" width="896" height="896" rx="200" fill="#17151f"/>
+  <path d="M523 206.2A306 306 0 0 1 793.4 632.3L691.9 584.5A194 194 0 0 0 523 318.3Z" fill="#7c4dff"/>
+  <path d="M784 652.2A306 306 0 0 1 409.7 800.4L450.9 696.1A194 194 0 0 0 682.6 604.4Z" fill="#3b82f6"/>
+  <path d="M389.2 792.3A306 306 0 0 1 206.2 523L318.3 523A194 194 0 0 0 430.5 688Z" fill="#10b981"/>
+  <path d="M206.2 501A306 306 0 0 1 308.6 283.4L380.1 369.8A194 194 0 0 0 318.3 501Z" fill="#f59e0b"/>
+  <path d="M325.5 269.4A306 306 0 0 1 501 206.2L501 318.3A194 194 0 0 0 397 355.7Z" fill="#f43f5e"/>
+  <path d="M50 -46C44 -68 24 -76 0 -76C-28 -76 -50 -62 -50 -38C-50 -12 -24 -6 0 0C24 6 50 12 50 38C50 62 28 76 0 76C-26 76 -46 66 -52 42M0 -102V-76M0 76V102" transform="translate(512 512)" fill="none" stroke="#f2f0f8" stroke-width="30" stroke-linecap="butt" stroke-linejoin="miter"/>
+</svg>
